@@ -1,0 +1,26 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 09 Aug 2017 15:19:09 at http://templates.entheosweb.com/template_number/live_demo.asp?TemplateID=53533 +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://templates.entheosweb.com/template_number/live_demo.asp?TemplateID=53533 -O1 "E:\Haris\download\forex" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+15:21:40	Error: 	"Not Found" (404) at link templates.entheosweb.com/template_number/images/details_hover.gif (from templates.entheosweb.com/template_number/53533.asp)
+15:21:40	Error: 	"Not Found" (404) at link templates.entheosweb.com/template_number/images/live-demo-hover.png (from templates.entheosweb.com/template_number/53533.asp)
+15:21:40	Error: 	"Not Found" (404) at link templates.entheosweb.com/template_number/images/demo_hover.jpg (from templates.entheosweb.com/template_number/53533.asp)
+15:34:48	Warning: 	Retry after error 500 (Internal Server Error) at link templates.entheosweb.com/template_number/aj.asp?fb= (from templates.entheosweb.com/template_number/53533.asp)
+15:34:48	Error: 	"Not Found" (404) at link templates.entheosweb.com/template_number/POST (from templates.entheosweb.com/template_number/53533.asp)
+15:34:48	Error: 	"Not Found" (404) at link templates.entheosweb.com/template_number/safari/ (from templates.entheosweb.com/template_number/includes/common.js)
+15:34:48	Error: 	"Not Found" (404) at link templates.entheosweb.com/template_number/includes/league_gothic-webfont.woff (from templates.entheosweb.com/template_number/includes/style.css)
+15:34:48	Error: 	"Not Found" (404) at link templates.entheosweb.com/images/li.gif (from templates.entheosweb.com/template_number/includes/style.css)
+15:34:48	Error: 	"Not Found" (404) at link templates.entheosweb.com/template_number/includes/PIE.htc (from templates.entheosweb.com/template_number/includes/meanmenu.css)
+15:34:48	Error: 	"Not Found" (404) at link templates.entheosweb.com/template_number/images/menu-arrow2.png (from templates.entheosweb.com/template_number/includes/meanmenu.css)
+15:34:48	Error: 	"Not Found" (404) at link templates.entheosweb.com/template_number/images/bullet-active.png (from templates.entheosweb.com/template_number/includes/meanmenu.css)
+15:34:48	Error: 	"Not Found" (404) at link templates.entheosweb.com/template_number/images/bullet.png (from templates.entheosweb.com/template_number/includes/meanmenu.css)
+15:43:33	Warning: 	Retry after error 500 () at link templates.entheosweb.com/template_number/aj.asp?fb= (from templates.entheosweb.com/template_number/53533.asp)
+15:55:03	Error: 	"" (500) after 2 retries at link templates.entheosweb.com/template_number/aj.asp?fb= (from templates.entheosweb.com/template_number/53533.asp)
+16:13:00	Error: 	"Not Found" (404) at link templates.entheosweb.com/template_number/36400/36465-m.jpg (from templates.entheosweb.com/template_number/35656.asp)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 hours 53 minutes 19 seconds : 945 links scanned, 929 files written (170251939 bytes overall) [165193371 bytes received at 24296 bytes/sec], 7686173 bytes transferred using HTTP compression in 240 files, ratio 30%
+(13 errors, 2 warnings, 0 messages)

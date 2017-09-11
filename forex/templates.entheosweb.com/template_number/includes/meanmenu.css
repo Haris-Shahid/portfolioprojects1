@@ -1,0 +1,142 @@
+
+
+/* ##############################################################################################
+	
+To be used with jquery.meanmenu.js by Chris Wharton (http://www.meanthemes.com/plugins/meanmenu/)
+
+################################################################################################# */
+
+/* hide the link until viewport size is reached */
+a.meanmenu-reveal { display: none; }
+
+/* when under viewport size, .mean-container is added to body */
+.menu-container { position:relative; z-index: 9999; }
+
+.mean-container .mean-bar { float:left; width:100%; position:relative; padding:0px 0; top:0px; left:0; z-index: 9999; }
+.mean-container .mean-bar .menu-head { font-family:Arial, Helvetica, sans-serif; 
+float:left; font-weight:400; font-size:22px; color: #ffffff; background:#393d41; padding:8px 3% 8px 5%; width:90%; height:24px; line-height:24px; 
+-webkit-border-radius:3px 0px 0px 3px; 
+-moz-border-radius:3px 0px 0px 3px;
+border-radius:/*3px 0px 0px 3px*/0;
+behavior: url(PIE.html);
+}
+.mean-container a.meanmenu-reveal {
+width:25px; height:24px; padding:9px 10px 7px 10px;
+position: absolute; top: 0; right: 0;
+cursor: pointer;
+font-family:Arial; text-decoration: none; font-size:13px; text-indent: -9999em; line-height: 22px;
+font-size: 1px;
+display: block;
+background:#D60000;
+/*-webkit-border-radius:0px 3px 3px 0px; 
+-moz-border-radius:0px 3px 3px 0px;*/
+border-radius:/*0px 3px 3px 0px*/0;
+behavior: url(PIE.html);
+outline:none;
+border-left:1px solid #1e2022;
+}
+.mean-container a.meanmenu-reveal:hover { }
+
+.mean-container a.meanmenu-reveal.meanclose {  }
+.mean-container a.meanmenu-reveal span { display: block; background:#ffffff; height: 3px; margin-top: 3px; }
+.mean-container a.meanmenu-reveal:hover span, .mean-container a.meanmenu-reveal.meanclose span {  background:#393D41; }
+.mean-container .mean-nav { float: left; width:100%; margin:0; position:absolute; top:41px; }
+
+/*  1st Level Menu  */
+.mean-container .mean-nav ul {
+    border: 1px solid #767373;
+    -webkit-border-radius: 0px 0px 5px 5px;
+-moz-border-radius:0px 0px 5px 5px;
+-khtml-border-radius: 0px 0px 5px 5px;
+border-radius: 0px 0px 5px 5px;
+-webkit-box-shadow:0px 0px 5px rgba(0, 0, 0, 0.2);
+-moz-box-shadow:0px 0px 5px rgba(0, 0, 0, 0.2);
+box-shadow: 0px 0px 5px rgba(37, 0, 0, 0.2);
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 99.2%;
+}
+
+.mean-container .mean-nav ul li {
+    background: none repeat scroll 0 0 #393d41;
+    border-bottom: 1px solid #767373;
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+.mean-container .mean-nav ul li:hover { background:#fff; }
+.mean-container .mean-nav ul li.mean-last { 
+-webkit-border-radius:0px 0px 5px 5px;
+-moz-border-radius:0px 0px 5px 5px;
+-khtml-border-radius:0px 0px 5px 5px;
+border-radius:0px 0px 5px 5px;
+border-bottom:none;
+}
+.mean-container .mean-nav ul li a {
+display: block;
+float: left;
+width: 92%;
+padding:7px 4% 7px !important;
+margin: 0;
+text-align: left;
+text-decoration: none;
+text-transform: uppercase;
+color:#/*303030*/ffffff;
+}
+.mean-container .mean-nav ul li a span { color: #15B2CA; display: block; font-size: 13px; font-weight: 400; text-transform: none; }
+.mean-container .mean-nav ul li:hover a, .mean-nav ul li.active a, .mean-container .mean-nav ul li:focus a { color:#D60000; }
+.mean-container .mean-nav ul li.mean-last a { border-bottom: none; margin-bottom: 0; }
+
+/*  2nd Level Menu  */
+.mean-container .mean-nav ul li ul {
+border:none;
+-webkit-border-radius:0px;
+-moz-border-radius:0px;
+-khtml-border-radius:0px;
+border-radius:0px;
+-webkit-box-shadow:0px 0px 0px rgba(0, 0, 0, 0);
+-moz-box-shadow:0px 0px 0px rgba(0, 0, 0, 0);
+box-shadow: 0px 0px 0px rgba(37, 0, 0, 0);
+width: 96%;
+background:url(../images/menu-arrow2.html) top left no-repeat;
+margin:0px 2% 7px;  padding: 11px 0px 0px 0px;
+}
+.mean-container .mean-nav ul li ul li { border-bottom:1px solid #eeeeee; line-height:20px; background:#ffffff; }
+.mean-container .mean-nav ul li:hover ul li { border-bottom:1px solid #e5e5e5; line-height:20px; background:#f7f7f7; }
+.mean-container .mean-nav ul li ul li:hover {  background:url(../images/bullet-active.html) 10px 17px no-repeat #ffffff!important; }
+.mean-container .mean-nav ul li ul li.bdr { border-bottom:none; }
+.mean-container .mean-nav ul li ul li.mean-last { -webkit-border-radius:0px; -moz-border-radius:0px; -khtml-border-radius:0px; border-radius:0px; }
+.mean-container .mean-nav ul li ul li:hover a, .mean-nav ul li.active ul li a, .mean-container .mean-nav ul li ul li:focus a { color:#303030; background:none !important;}
+.mean-container .mean-nav ul li:hover ul li a{ color:#303030 !important; }
+.mean-container .mean-nav ul li li a { background:url(../images/bullet.html) 10px 17px no-repeat; width:88%; padding:7px 6% 7px 6%!important; font-size:15px; font-weight:400; color:#303030; line-height:24px; visibility: visible; text-transform: none; }
+.mean-container .mean-nav ul li li a:hover { background:url(../images/bullet-active.html) 10px 17px no-repeat!important; color:#19adc4!important;}
+
+/*  3rd Level Menu  */
+.mean-container .mean-nav ul li li li a { width: 70%; padding: 1em 15%; }
+.mean-container .mean-nav ul li li li li a { width: 60%; padding: 1em 20%; }
+.mean-container .mean-nav ul li li li li li a { width: 50%; padding: 1em 25%; }
+
+/*  Menu Expand  */
+.mean-container .mean-nav ul li a.mean-expand {
+width:200px;
+height: 26px;
+border: none !important;
+padding:0px;
+text-align: right;
+position: absolute;
+right: 0; top: 0; 
+z-index: 2;
+font-size:32px;
+padding:15px 4% 7px !important;
+}
+.mean-container .mean-nav ul li a.mean-expand.mean-clicked { font-size:50px; padding:10px 4% 13px !important; color:#15B2CA; }
+.mean-container .mean-nav ul li a.mean-expand:hover { background: none; }
+.mean-container .mean-push { float: left; width: 100%; padding: 0; margin: 0; clear: both; }
+.mean-nav .wrapper { width: 100%; padding: 0; margin: 0; } 
+
